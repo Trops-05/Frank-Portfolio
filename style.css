@@ -356,7 +356,7 @@ footer {
 }
 
 @media (max-width:768px) {
-  nav {display:none;flex-direction:column;background:#4f46e5;padding:1rem;position:absolute;top:60px;right:10px;border-radius:8px;}
+  nav {display:none;flex-direction:column;background:#4f46e5;padding:1rem;position:absolute;top:60px;right:10px;border-radius:8px;z-index:2000;}
   nav.active {display:flex;}
   nav a {margin:0.5rem 0;}
   .menu-toggle {display:block;}
@@ -367,3 +367,4 @@ footer {
   body {font-size:0.95rem;}
   .btn {padding:0.5rem 1rem;}
 }
+
